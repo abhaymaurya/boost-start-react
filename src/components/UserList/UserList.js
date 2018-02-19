@@ -3,6 +3,9 @@ import './UserList.css';
 import FormLabel from './../../sub-components/FormLabel/FormLabel';
 import BreadCrumb from './../../sub-components/BreadCrumb/BreadCrumb';
 import UserEdit from './../../sub-components/UserEdit/UserEdit';
+import imgPencil from './../../assets/pencil.svg';
+import imgCancel from './../../assets/cancel.png';
+import imgDelete from './../../assets/delete.png';
 
 class UserList extends Component {
   render() {
@@ -16,9 +19,9 @@ class UserList extends Component {
                     <li>
                         <div class="user-list-text">User Name</div>
                         <div class="user-list-icons">
-                            <img src={require('./../../assets/pencil.svg')} />
-                            <img src={require('./../../assets/cancel.png')} />
-                            <img src={require('./../../assets/delete.png')} />
+                            <img src={imgPencil} />
+                            <img src={imgCancel} />
+                            <img src={imgDelete} />
                         </div>
                     </li>
                     <UserEdit />
