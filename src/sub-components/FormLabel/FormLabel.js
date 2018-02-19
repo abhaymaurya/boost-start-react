@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './FormLabel.css';
 
-class FormLabel extends Component {
-  render() {
+function FormLabel (props) {
     return (
-        <div class="form-label">
-            <span>Title</span>
+        <div className="form-label">
+            <span>{props.title}</span>
         </div>
     );
-  }
 }
 
 export default FormLabel;

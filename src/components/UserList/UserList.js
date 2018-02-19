@@ -19,9 +19,9 @@ class UserList extends Component {
                     <li>
                         <div class="user-list-text">User Name</div>
                         <div class="user-list-icons">
-                            <img src={imgPencil} />
-                            <img src={imgCancel} />
-                            <img src={imgDelete} />
+                            <img src={imgPencil} alt="edit" />
+                            <img src={imgCancel} alt="cancel" />
+                            <img src={imgDelete} alt="delete" />
                         </div>
                     </li>
                     <UserEdit />

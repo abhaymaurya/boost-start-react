@@ -4,9 +4,9 @@ import './Header.css';
 class Header extends Component {
     render() {
         return (
-            <div class="header">
-                <div class="logo-title">Demo App</div>
-                <div class="login-buttons">
+            <div className="header">
+                <div className="logo-title">Demo App</div>
+                <div className="login-buttons">
                     <a>Logout</a>
                 </div>
             </div>

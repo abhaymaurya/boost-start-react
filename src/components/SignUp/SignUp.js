@@ -7,7 +7,7 @@ class SignUp extends Component {
     return (
         <div>
             <FormLabel />
-            <form>
+            <form class="sign-up-form">
                 <div>
                     <label for="name">Name</label>
                     <input class="field" type="text" id="name" name="name" placeholder="your name" required />
