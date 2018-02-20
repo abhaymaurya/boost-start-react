@@ -14,7 +14,7 @@ class UserList extends Component {
             <BreadCrumb />
             <FormLabel />
             <div class="user-list">
-                <input type="text" placeholder="search by name" name="search-box" />
+                <input className="search" type="text" placeholder="search by name" name="search-box" />
                 <ul>
                     <li>
                         <div class="user-list-text">User Name</div>
