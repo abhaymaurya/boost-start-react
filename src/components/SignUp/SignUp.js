@@ -51,7 +51,6 @@ class SignUp extends Component {
     }
 
     handleChange = (event) => {
-        console.log(this.state, event.target.value);
         const nameDirty = event.target.name+'Dirty';
         if (event.target.value === '' && this.state.nameDirty) {
             return null;
@@ -92,29 +91,6 @@ class SignUp extends Component {
               [name + 'Dirty']: dirty
             });
         }
-        console.log(this.state);
-    }
-
-    isValidLoginInput = () => {
-        if (
-            !this.state.email || 
-            !isValidEmail(this.state.email) || 
-            !this.state.password || 
-            !isValidPassword(this.state.password)
-        ) {
-            return true;
-        }
-        return false;
-    }
-
-    isValidForgotPasswordInput = () => {
-        if (
-            !this.state.email || 
-            !isValidEmail(this.state.email)
-        ) {
-            return true;
-        }
-        return false;
     }
 
     isValidInput = () => {
